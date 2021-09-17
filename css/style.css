@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .clearfix::after {
 content: '';
 display: table;
@@ -16,9 +20,29 @@ clear: both;
 }
 
 /* HEADER */
-.top-header {
-  height: 100px;
-  background-color: #E579E6;
+/* top header */
+.logo
+{
+  height: 70px;
+  border-right: 1px solid #E5E5E5;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block; 
+  padding-right: 15px;
+}
+
+nav li a, nav li a:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #878787;
+}
+
+nav li a:hover, nav li a:active {
+  color: red;
 }
 
 .jumbotron {
