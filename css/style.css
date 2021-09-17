@@ -21,7 +21,6 @@ clear: both;
 
 .layover {
   background-color: rgba(0, 0, 0, 0.2);
-  /* height: 500px; */
   height: 100%;
   border-radius: 10px;
 }
@@ -71,13 +70,12 @@ nav li a:hover, nav li a:active {
 }
 
 /* MAIN */
-main .top-bar h6 {
+main .top-bar h5 {
   color: #949494;
 }
 
 .fl {
   float: left;  
-  min-height: 490px; /*da togliere*/
 }
 
 .l-column, .r-column {
@@ -90,43 +88,43 @@ main .top-bar h6 {
   margin: 35px 2%;
 }
 
-.l-column .l-img {
-  background-image: url(../img/img-1.jpg);
+.main-content .img {
   height: 200px;
   border-radius: 10px;
   background-size: cover;
   background-position: center;
 }
 
-.c-column .c-img {
-  background-image: url(../img/banner-2.jpg);
-  height: 200px;
-  border-radius: 10px;
-  background-size: cover;
-  background-position: center;
+.l-column .img {
+  background-image: url(../img/img-1.jpg);  
 }
 
-.r-column .r-img {
+.c-column .img {
+  background-image: url(../img/banner-2.jpg);  
+}
+
+.r-column .img {
   background-image: url(../img/img-3.jpg);
-  height: 200px;
-  border-radius: 10px;
-  background-size: cover;
-  background-position: center;
+  
 }
 
-.main-content .column-title{
+.main-content .column-title {
   padding-top: 25px;
   padding-bottom: 13px;
   
 }
 
-.main-content p {
+.main-content .column-text {
   color: #949494;
 }
 
 /* FOOTER */
-footer {
-  margin-top: 10px;
-  background-color: #8801FE; /*da togliere*/
-  height: 70px; /*da togliere*/
+footer p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heart::before {
+  content: '\02665';
+  color: red;
 }
