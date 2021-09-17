@@ -19,6 +19,12 @@ clear: both;
   margin: 0 auto;
 }
 
+.layover {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 500px;
+  border-radius: 10px;
+}
+
 /* HEADER */
 /* top header */
 .logo
@@ -45,10 +51,22 @@ nav li a:hover, nav li a:active {
   color: red;
 }
 
+/* jumbotron */
 .jumbotron {
-  height: 300px;
-  margin: 25px 0;
-  background-color: #E1D67A;
+  margin: 40px 0;
+  background-image: url(../img/banner.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+
+.jumbotron-text {
+  padding-left: 45px;
+  padding-top: 30%;
+  width: 50%;
+  color: white;
 }
 
 /* MAIN */
