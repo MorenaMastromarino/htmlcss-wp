@@ -21,7 +21,8 @@ clear: both;
 
 .layover {
   background-color: rgba(0, 0, 0, 0.2);
-  height: 500px;
+  /* height: 500px; */
+  height: 100%;
   border-radius: 10px;
 }
 
@@ -70,36 +71,62 @@ nav li a:hover, nav li a:active {
 }
 
 /* MAIN */
-.main-content {
-  margin-bottom: 10px;
-  background-color: #0086FF;
+main .top-bar h6 {
+  color: #949494;
 }
-
-.main-content * {
-  background-color: #ABCFE7;
-}
-
- .main-content .top-bar{
-   height: 70px;
- } 
 
 .fl {
   float: left;  
-  min-height: 490px;
+  min-height: 490px; /*da togliere*/
 }
 
 .l-column, .r-column {
   width: 20%;
-  margin: 20px 0;
+  margin: 35px 0;
 }
 
 .c-column {
   width: 56%;
-  margin: 20px 2%;
+  margin: 35px 2%;
+}
+
+.l-column .l-img {
+  background-image: url(../img/img-1.jpg);
+  height: 200px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.c-column .c-img {
+  background-image: url(../img/banner-2.jpg);
+  height: 200px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.r-column .r-img {
+  background-image: url(../img/img-3.jpg);
+  height: 200px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-content .column-title{
+  padding-top: 25px;
+  padding-bottom: 13px;
+  
+}
+
+.main-content p {
+  color: #949494;
 }
 
 /* FOOTER */
 footer {
-  background-color: #8801FE;
-  height: 70px;
+  margin-top: 10px;
+  background-color: #8801FE; /*da togliere*/
+  height: 70px; /*da togliere*/
 }
